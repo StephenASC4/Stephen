@@ -1,0 +1,14 @@
+var mashArray = ["Battlefield","Smashville","Final Destination","Town and City"];
+var firstQuestion = [2,3,4,5];
+var secondQuestion = ["Cloud","Mario"];
+var prompt = require('prompt-sync')();
+var answertofirstQuestion = prompt("How many times will you strike? ");
+firstQuestion.push(answertofirstQuestion);
+var strikes = firstQuestion[Math.floor(Math.random()*firstQuestion.length)];
+var answertosecondQuestion = prompt("Who will you choose to fight against? ");
+secondQuestion.push(answertosecondQuestion);
+var opponent = secondQuestion[Math.floor(Math.random()*secondQuestion.length)];
+var answertomashArray = prompt("On what stage? ");
+mashArray.push(answertomashArray);
+var chosenstage = mashArray[Math.floor(Math.random()*mashArray.length)];
+console.log("You fought "+opponent+ " on "+ chosenstage + " and hit them "+strikes+" times. Too bad! "+opponent+" wins!");
