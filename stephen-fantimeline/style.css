@@ -1,0 +1,45 @@
+body{
+    background-image: url("woodman-mm2.png");
+    background-position: center;
+    background-size: cover;
+}
+head{
+    text-align: center;
+    font-family: "Comic Sans MS",cursive,sans-serif;
+}
+.names{
+    text-align: center;
+    background-color: olivedrab;
+    color: chartreuse;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+img{
+    border:solid 4px tan;
+    width:70%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 20px;
+}
+.dates{
+    text-align: center;
+    background-color: olivedrab;
+    border:dotted 4px darkgreen;
+    margin-bottom: 10px;
+    color: saddlebrown;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.losColores{
+    text-align: center;
+    background-color: yellowgreen;
+    border:dashed 2px brown;
+    margin-bottom: 10px;
+    color: seagreen;
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
