@@ -1,0 +1,45 @@
+li{
+    display: inline-flex;
+}
+ul{
+    text-align: center;
+    vertical-align: auto;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-position: inside;
+}
+a{
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+    font-size: 24px;
+    font-family: "DWC";
+}
+a:hover{
+    text-decoration: underline;
+}
+.lines{
+    display: flex;
+}
+ul{
+    display:inline-block;
+}
+#text{
+    padding-left: 100px;
+    padding-top: 0;
+    padding-right: 50px;
+    font-family: "DWC";
+}
+.desc{
+    padding-left: 50px;
+    padding-top: 50px;
+    font-family: "DWC";
+}
+#justdoit{
+    width: auto;
+    max-height: 50px;
+}
+@font-face{
+    font-family:"DWC";
+    src:url(DINWeb-Cond.ttf) format("truetype");
+}
