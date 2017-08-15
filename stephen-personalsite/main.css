@@ -31,6 +31,7 @@
     src: url(fontsandsuch.ttf) format("truetype")
 }
 h1{
+    padding-top:5px;
     padding-left:5px;
     font-family: "8BitWonder";
     color: #ab0010;
@@ -46,6 +47,7 @@ h1{
     float: left;
     padding-right: 30px;
     background: #f2f0EC;
+    padding-bottom: 510px;
 }
 .photoofme{
     display: inline-block;
@@ -63,12 +65,21 @@ h2{
 }
 @media (max-width: 700px){
     .size{
-        float:none;
+        display:none;
     }
     #shoulder{
-        float:none;
+        display:none;
+    }
+    h2{
+        font-size: 18px;
     }
 }
 hr{
     margin:0;
+}
+#texting{
+    padding-bottom: 620px;
+}
+#information{
+    padding-bottom: 645px;
 }

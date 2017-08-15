@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script src = 'https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.js'></script>
+        <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src='app.js'></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <meta name="google-signin-client_id" content="867065431902-v4simc0u6pe30eo7ifqcc0qrjs9hp2nl.apps.googleusercontent.com">
+    </head>
+    <body>
+        <audio src="songs.mp3" autoplay="autoplay" loop = "loop"></audio>
+        <header>
+            <h1>Mahdi when <span class="userName">someone</span>  asks him for help</h1>    
+        </header>
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+<a href="#" onclick="signOut();">Sign out</a>
+<script>
+  function signOut() {
+    var auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function () {
+      console.log('User signed out.');
+              $(".userName").text("someone");
+    });
+  }
+</script>
+    </body>
+</html>

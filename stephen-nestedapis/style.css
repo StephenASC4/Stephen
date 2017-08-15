@@ -1,0 +1,27 @@
+body{
+    background: url("image.png");
+    background-size: cover;
+    background-position: center;
+}
+#hey{
+    color: white;
+    font-size: 50px;
+    font-family: "8BitWonder";
+    text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
+}
+#howis{
+    color:white;
+    font-size: 50px;
+    font-family: "8BitWonder";
+    text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
+}
+#it{
+    color: white;
+    font-size: 50px;
+    font-family: "8BitWonder";
+    text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
+}
+@font-face{
+    font-family: "8BitWonder";
+    src: url(fontsandsuch.ttf) format("truetype")
+}

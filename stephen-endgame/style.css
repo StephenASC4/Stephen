@@ -1,0 +1,24 @@
+h1{
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    position: relative;
+    position: absolute; top: 0;
+}
+h2{
+    clear: left;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+p{
+    color: white;
+    clear: left;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.god{
+    float: left;
+}
+.param{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
